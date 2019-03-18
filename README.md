@@ -23,3 +23,7 @@ Undocumented code is just a bug waiting for removal. If anything is not document
 Nobody cares about your code if it's not documented.
 
 Every documentation needs to contain examples. If it doesn't contain examples, it's not a documentation, it's garbage.
+
+# Testing and optimization
+* Test your code before you commit it
+* Try to run (or even better - develop) your software using very slow old computery, with slow CPU and little RAM. That's what most of the planet has. Users have worse computers than programmers. If your software run slow on that kind of computer, people will hate it. Optimize for average hardware.
