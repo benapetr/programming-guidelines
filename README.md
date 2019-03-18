@@ -11,3 +11,8 @@ Error messages **must** be verbose and clear. They need to say exactly what went
 * Error
 * This is error, that's all we know
 * Something wrong happened
+
+# Coding style
+There is no best coding style, everyone prefers something else. I will add some examples for various languages later, but for now I would like to point out the important stuff:
+* Every project should follow some coding style for each programming language it contains
+* This project style should be adhered to within whole project and shouldn't be mixed with any other styles
