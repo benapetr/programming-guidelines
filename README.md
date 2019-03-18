@@ -18,11 +18,9 @@ There is no best coding style, everyone prefers something else. I will add some 
 * This project style should be adhered to within whole project and shouldn't be mixed with any other styles
 
 # Documentation
-Undocumented code is just a bug waiting for removal. If anything is not documented, it shouldn't exist. Every single API and feature needs to be documented somehow.
-
-Nobody cares about your code if it's not documented.
-
-Every documentation needs to contain examples. If it doesn't contain examples, it's not a documentation, it's garbage.
+* Undocumented code is just a bug waiting for removal. If anything is not documented, it shouldn't exist. Every single API and feature needs to be documented somehow.
+* Nobody cares about your code if it's not documented.
+* Every documentation needs to contain examples. If it doesn't contain examples, it's not a documentation, it's garbage.
 
 # Testing and optimization
 * Test your code before you commit it
