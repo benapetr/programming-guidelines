@@ -16,3 +16,8 @@ Error messages **must** be verbose and clear. They need to say exactly what went
 There is no best coding style, everyone prefers something else. I will add some examples for various languages later, but for now I would like to point out the important stuff:
 * Every project should follow some coding style for each programming language it contains
 * This project style should be adhered to within whole project and shouldn't be mixed with any other styles
+
+# Documentation
+Undocumented code is just a bug waiting for removal. If anything is not documented, it shouldn't exist. Every single API and feature needs to be documented somehow.
+
+Nobody cares about your code if it's not documented.
