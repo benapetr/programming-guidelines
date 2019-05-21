@@ -18,6 +18,27 @@ There is no best coding style, everyone prefers something else. I will add some 
 * This project style should be adhered to within whole project and shouldn't be mixed with any other styles, the code should be consistent with the rest of code base
 * If anything you write is not obvious put comments there and explain your logic. If other people don't understand your logic, they will change your code and that may lead to disaster. Putting comments that explain your thinking, will avoid these disasters.
 
+## Variable names
+Each variable should be "self-documenting". That means its name should explicitly make it obvious what is it for. This is especially true for variables that are somehow global. Higher scope demand better name. Index / loop variables that have very small scope can probably be generic "i" or "x" as their intention is obvious in such context.
+
+### Good
+```
+float vector_distance(Vector source, Vector target)
+{
+    return std::sqrt(std::pow(source.X - target.X, 2) + std::pow(source.Y - target.Y, 2));
+}
+```
+
+### Bad
+```
+float foo(Vector bleh, Vector meh)
+{
+    return std::sqrt(std::pow(bleh.X - meh.X, 2) + std::pow(bleh.Y - meh.Y, 2));
+}
+```
+
+In case of programming languages that don't have static typing, it might be also a good idea to prefix variable name with its intended type as that will greatly improve code readability (everyone will know that str_foo is going to be a string in case they wonder, and they will not have to go through whole code-base just to figure that simple thing out).
+
 # Documentation
 * Undocumented code is just a bug waiting for removal. If anything is not documented, it shouldn't exist. Every single API and feature needs to be documented somehow.
 * Nobody cares about your code if it's not documented.
