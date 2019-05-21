@@ -18,8 +18,8 @@ There is no best coding style, everyone prefers something else. I will add some 
 * This project style should be adhered to within whole project and shouldn't be mixed with any other styles, the code should be consistent with the rest of code base
 * If anything you write is not obvious put comments there and explain your logic. If other people don't understand your logic, they will change your code and that may lead to disaster. Putting comments that explain your thinking, will avoid these disasters.
 
-## Variable names
-Each variable should be "self-documenting". That means its name should explicitly make it obvious what is it for. This is especially true for variables that are somehow global. Higher scope demand better name. Index / loop variables that have very small scope can probably be generic "i" or "x" as their intention is obvious in such context.
+## Names
+Each variable, class or function name should be "self-documenting". That means name should explicitly make it obvious what is it for. This is especially true for variables or functions that are somehow global. Higher scope demand better name. Index / loop variables that have very small scope can probably be generic "i" or "x" as their intention is obvious in such context.
 
 ### Good
 ```
